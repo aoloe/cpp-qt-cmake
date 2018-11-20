@@ -11,9 +11,9 @@ set(CMAKE_AUTOMOC ON)
 find_package(Qt5Widgets)
 
 ADD_EXECUTABLE(sample
-    main.cpp
-    sample.cpp
-    mainwindow.cpp
+    src/main.cpp
+    src/sample.cpp
+    src/mainwindow.cpp
 )
 
 target_link_libraries(sample

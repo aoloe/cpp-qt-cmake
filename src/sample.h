@@ -8,6 +8,5 @@ class Sample : public QApplication
     Q_OBJECT
 public:
     explicit Sample(int &argc, char *argv[]);
-
 };
 #endif
